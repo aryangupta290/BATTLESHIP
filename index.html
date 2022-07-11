@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body scroll="no" style="overflow: hidden">
+    <canvas id="canvas"> </canvas>
+    <div id="main">
+      <div id="health">Health :</div>
+      <div id="score">Score :</div>
+      <div id="treasure">Treausre :</div>
+      <div id="time">Time :</div>
+    </div>
+    <div
+      id="over"
+      style="
+        font-size: 100px;
+        color: red;
+        position: absolute;
+        top: 4em;
+        left: 5em;
+      "
+    ></div>
+
+    <script src="js/lib/three.js"></script>
+    <script src="js/lib/Pass.js"></script>
+    <script src="js/lib/CopyShader.js"></script>
+    <script src="js/lib/ConvolutionShader.js"></script>
+    <script src="js/lib/ShaderPass.js"></script>
+    <script src="js/lib/FilmShader.js"></script>
+    <script src="js/lib/RenderPass.js"></script>
+    <script src="js/lib/FilmPass.js"></script>
+    <script src="js/lib/BloomPass.js"></script>
+    <script src="js/lib/EffectComposer.js"></script>
+    <script src="js/lib/Sky.js"></script>
+    <script src="js/lib/Water.js"></script>
+    <script src="js/lib/OrbitControls.js"></script>
+    <script src="js/lib/GLTFLoader.js"></script>
+    <script src="js/enviornment.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
